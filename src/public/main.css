@@ -1,8 +1,8 @@
 :root {
-  --color-principal: #d4a276;
-  --color-secundario: #e7bc91;
-  --color-hover: #f3d5b5;
-  --color-body: #ffedd8;
+  --color-principal: #2F2445;
+  --color-secundario: #8E6DD1;
+  --color-hover: #6C529E;
+  --color-body: #fcf1f1;
 }
 
 * {
@@ -24,7 +24,7 @@ ul {
 }
 
 a {
-  color: #000;
+  color: #FFF;
   text-decoration: none;
   font-weight: 600;
 }
@@ -70,7 +70,7 @@ a {
   margin: 5px auto;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
-  background: #000;
+  background: #fff;
 }
 
 @media (max-width: 768px) {
@@ -258,4 +258,35 @@ a {
   border-radius: 5px;
   border: 1px solid #000;
   cursor: pointer;
+}
+
+
+/* Projectos */
+
+.project {
+  padding: 3em;
+  text-align: center;
+}
+
+.project-image {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.project-info {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 40px 0 20px 0; 
+  margin-bottom: 2rem;
+}
+.project-info_h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
 }

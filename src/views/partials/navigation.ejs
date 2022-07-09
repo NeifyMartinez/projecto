@@ -1,0 +1,42 @@
+<header class='header'>
+    <nav class='navbar'>
+        <a class='logo' href="/">LOGO</a>
+        <ul class='menu'>
+            <li class='menu_li'>
+                <a class='navlink' href='/'>Home</a>
+            </li>
+            <li class='menu_li'>
+                <a class='navlink' href='/about'>About me</a>
+            </li>
+            <li class='menu_li'>
+                <a class='navlink' href='/contact'>Contact</a>
+            </li>
+            <li class='menu_li'>
+                <a class='navlink' href='/projects'>Projects</a>
+            </li>
+        </ul>
+        <div class='hamburguer'>
+            <span class='bar'></span>
+            <span class='bar'></span>
+            <span class='bar'></span>
+        </div>
+    </nav>
+</header>
+
+<script>
+    const hamburguer = document.querySelector(".hamburguer");
+    const navMenu = document.querySelector(".menu");
+
+    hamburguer.addEventListener("click", () => {
+        hamburguer.classList.toggle("active");
+        navMenu.classList.toggle("active");
+
+    });
+
+    document.querySelectorAll(".navlink").forEach((n) =>
+        n.addEventListener("click", () => {
+            hamburguer.classList.remove("active");
+            navMenu.classList.remove("active");
+        })
+    );
+</script>

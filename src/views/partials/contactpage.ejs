@@ -1,13 +1,14 @@
 <section class="section_contact">
     <div class="wrapper">
-        <form class="contact_form">
+        <form action="/send-email" method="POST" class="contact_form">
             <div class="contact_form_header">
                 <h2>Contact</h2>
             </div>
             <div class="contact_form_body">
-                <input name="numeroTel" class="contact_form_input" placeholder="whatsap -example 8094754848 &#9990;" type="text">
+                <input name="name" class="contact_form_input" placeholder="Name: " type="text">
+                <input name="numeroTel" class="contact_form_input" placeholder="whatsap: -example 8094754848 &#9990;" type="text">
                 <input name="email" class="contact_form_input" placeholder="example@gmail.com" type="email">
-                <textarea name="message" class="contact_form_textarea" placeholder="Message &#9993;" name="" id="mensj" cols="30" rows="10"></textarea>
+                <textarea name="message" class="contact_form_textarea" placeholder="Message &#9993;:" name="" id="mensj" cols="30" rows="10"></textarea>
                 <input class="contact_form_btn" type="submit" value="Send">
             </div>
         </form>

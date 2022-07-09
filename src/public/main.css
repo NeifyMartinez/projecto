@@ -215,4 +215,47 @@ a {
   }
 }
 
-/* projects*/
+/* Contact*/
+
+.section_contact {
+  padding: 3em;
+  text-align: center;
+}
+
+.contact_form  {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact_form_header {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.contact_form_body {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 20px;
+}
+.contact_form_input {
+  width: 100%;
+  padding: 0.5em;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+
+.contact_form_textarea {
+  width: 100%;
+  padding: 0.5em;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+
+.contact_form_btn {
+  background-color: var(--color-principal);
+  color: #fff;
+  padding: 0.5em;
+  border-radius: 5px;
+  border: 1px solid #000;
+  cursor: pointer;
+}

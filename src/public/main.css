@@ -137,12 +137,12 @@ a {
 
 .landingPage {
   max-width: 992px;
-  min-height: 88vh;
-  margin: 12vh auto;
+  min-height: 70vh;
+  margin: 12vh auto 0 auto;
 }
 
 .landingPage_article {
-  height: 91vh;
+  height: 70vh;
   display: flex;
   padding: 40px 0 0 20px;
   flex-flow: column nowrap;

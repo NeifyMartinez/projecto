@@ -18,5 +18,9 @@ router.get('/projects', (req, res) => {
     res.render('projects', { title: 'Projects Page' });
 });
 
+router.get('/admin', (req, res) => {
+    res.render('admin', { title: 'admin page' });
+});
+
 export default router
 

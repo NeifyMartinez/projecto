@@ -248,12 +248,15 @@ a {
 
 .aboutme_txt {
   display: flex;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   line-height: 1.8rem;
 }
 
 
 @media (max-width: 768px) {
+  .aboutme {
+    margin: 0 auto;
+  }
   .aboutme_article {
     display: flex;
     flex-flow: column nowrap;

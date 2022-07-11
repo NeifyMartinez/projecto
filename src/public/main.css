@@ -138,11 +138,11 @@ a {
 .landingPage {
   max-width: 992px;
   min-height: 70vh;
-  margin: 10vh auto 0 auto;
+  margin: 1rem auto 0 auto;
 }
 
 .landingPage_article {
-  height: 70vh;
+  height: 40vh;
   display: flex;
   padding: 0 0 0 20px;
   flex-flow: column nowrap;
@@ -151,14 +151,14 @@ a {
 .landingPage_h1,
 .landingPage_span {
   letter-spacing: -0.5rem;
-  line-height: 10rem;
+  line-height: 9rem;
   font-weight: 900;
-  font-size: 9rem;
+  font-size: 8rem;
 }
 
 .landingPage_h2 {
   letter-spacing: -0.6rem;
-  line-height: 10rem;
+  line-height: 9rem;
   font-weight: 900;
   font-size: 8rem;
 }
@@ -205,14 +205,14 @@ a {
 /*STYLES ABOUT ME*/
 
 .aboutme {
-  padding: 3.7em;
+  padding: 2rem;
   text-align: center;
-  margin: 10rem auto;
+  margin: 2rem auto;
 }
 
 .wrapper {
   max-width: 992px;
-  margin: 2em auto;
+  margin: 1rem auto;
 }
 
 .aboutme .aboutme_h3 {
@@ -285,13 +285,13 @@ a {
 /* Contact*/
 
 .section_contact {
-  padding: 3em;
+  padding: 1rem;
   text-align: center;
 }
 
 .contact_form {
   max-width: 500px;
-  margin: 10rem auto;
+  margin: 2rem auto;
 }
 
 .contact_form_header {
